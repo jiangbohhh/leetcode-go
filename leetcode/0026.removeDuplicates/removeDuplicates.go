@@ -20,8 +20,8 @@ package removeDuplicates
 
 // 第一种解法思路：
 // 1. 生成变量 n，在 nums[0:n]上都是无重复元素且升序排列的，初始化时，n = 0。
-// 2. 从第二个元素遍历 nums，通过交换 nums[n+1]与后面的元素，如果 nums[i] != nums[u] 表示当前元素可以加入到左侧，
-// 交换nums[u+1]和nums[i]的值，并将 n++，如果 nums[i] == nums[u] 说明元素重复了，无需交换，遍历完成就nums[:n]
+// 2. 从第二个元素遍历 nums，通过交换 nums[n+1]与后面的元素，如果 nums[i] != nums[n] 表示当前元素可以加入到左侧，
+// 交换nums[n+1]和nums[i]的值，并将 n++，如果 nums[i] == nums[n] 说明元素重复了，无需交换，遍历完成就nums[:n]
 // 就是有序的。n+1即为有序无重复数组的长度。
 
 // removeDuplicates
