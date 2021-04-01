@@ -23,6 +23,7 @@ package removeDuplicates
 // 2. 从第二个元素遍历 nums，通过交换 nums[n+1]与后面的元素，如果 nums[i] != nums[n] 表示当前元素可以加入到左侧，
 // 交换nums[n+1]和nums[i]的值，并将 n++，如果 nums[i] == nums[n] 说明元素重复了，无需交换，遍历完成就nums[:n]
 // 就是有序的。n+1即为有序无重复数组的长度。
+// 时间复杂度: O(N)，空间复杂度: O(1)
 
 // removeDuplicates
 func removeDuplicates(nums []int) int {
