@@ -24,7 +24,6 @@ package maxProfit
 // 链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock
 // 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-
 // 第一种解法：DP
 
 // maxProfit
@@ -38,7 +37,7 @@ func maxProfit(prices []int) int {
 		if min > prices[i] {
 			min = i
 		}
-		if prices[i]- min > profit {
+		if prices[i]-min > profit {
 			profit = prices[i] - min
 		}
 	}

@@ -11,7 +11,6 @@ type Array struct {
 
 var (
 	InvalidIndex = errors.New("invalid index")
-
 )
 
 // NewArray
@@ -27,8 +26,8 @@ func (a *Array) Length() int {
 	return a.length
 }
 
-func (a *Array) Find(index int) (int, error){
-	if index <0 || index > a.length {
+func (a *Array) Find(index int) (int, error) {
+	if index < 0 || index > a.length {
 		return 0, InvalidIndex
 	}
 	return 0, nil
@@ -38,7 +37,6 @@ func (a *Array) Find(index int) (int, error){
 func (a *Array) Insert(index, data int) {
 
 }
-
 
 // Delete
 func (a *Array) Delete(indexList int) {

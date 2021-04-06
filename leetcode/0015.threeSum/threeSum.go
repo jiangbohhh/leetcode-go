@@ -34,7 +34,6 @@ import "sort"
 // 在相等时停止二层循环，跳出到一层循环。
 // 3. 依此，每次重复一层循环后重新计算二层循环，直到结束，
 
-
 // threeSum
 func threeSum(nums []int) [][]int {
 	var result = make([][]int, 0)
@@ -49,11 +48,11 @@ func threeSum(nums []int) [][]int {
 		end := n - 1
 		for start := i + 1; start < n; start++ {
 			// 保证第二层不重复
-			if start > i + 1 && nums[start] == nums[start - 1] {
+			if start > i+1 && nums[start] == nums[start-1] {
 				continue
 			}
 
-			for start < end && nums[i] + nums[start] + nums[end]  > 0 {
+			for start < end && nums[i]+nums[start]+nums[end] > 0 {
 				end--
 			}
 
@@ -62,7 +61,7 @@ func threeSum(nums []int) [][]int {
 				break
 			}
 
-			if nums[i] + nums[start] + nums[end] == 0 {
+			if nums[i]+nums[start]+nums[end] == 0 {
 				result = append(result, []int{nums[i], nums[start], nums[end]})
 			}
 		}

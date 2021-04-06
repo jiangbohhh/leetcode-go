@@ -8,7 +8,7 @@ func insertSort(nums []int) {
 		for ; j >= 0; j-- {
 			if nums[j] > val {
 				nums[j+1] = nums[j]
-			}else {
+			} else {
 				break
 			}
 		}

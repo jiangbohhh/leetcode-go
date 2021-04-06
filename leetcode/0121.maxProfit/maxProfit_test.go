@@ -18,7 +18,7 @@ func Test_maxProfit(t *testing.T) {
 		},
 		{
 			name: "[1,2,3,2,1], 2",
-			args: args{prices: []int{1,2,3,2,1}},
+			args: args{prices: []int{1, 2, 3, 2, 1}},
 			want: 2,
 		},
 	}

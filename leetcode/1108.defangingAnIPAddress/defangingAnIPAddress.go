@@ -21,14 +21,13 @@ import "strings"
 // 链接：https://leetcode-cn.com/problems/defanging-an-ip-address
 // 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-
 // defangIPAddr
 func defangIPAddr(address string) string {
 	addrList := strings.Split(address, ".")
 	var addr string
 	for idx, s := range addrList {
 		addr += s
-		if idx != len(addrList) -1 {
+		if idx != len(addrList)-1 {
 			addr += "[.]"
 		}
 	}

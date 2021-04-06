@@ -17,8 +17,8 @@ func Test_bubbleSort(t *testing.T) {
 	}{
 		{
 			name: "[4,5,6,1,2,3] => [1,2,3,4,5,6]",
-			args: args{nums: []int{4,5,6,1,2,3}},
-			want: []int{1,2,3,4,5,6},
+			args: args{nums: []int{4, 5, 6, 1, 2, 3}},
+			want: []int{1, 2, 3, 4, 5, 6},
 		},
 	}
 	for _, tt := range tests {

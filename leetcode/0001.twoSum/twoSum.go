@@ -35,10 +35,10 @@ package twoSum
 // twoSum
 func twoSum(nums []int, target int) []int {
 	var m = map[int]int{}
-	for i:= 0; i< len(nums); i++ {
+	for i := 0; i < len(nums); i++ {
 		if v, ok := m[nums[i]]; ok {
 			return []int{v, i}
-		}else {
+		} else {
 			m[target-nums[i]] = i
 		}
 	}

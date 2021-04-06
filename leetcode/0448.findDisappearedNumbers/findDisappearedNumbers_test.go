@@ -16,13 +16,13 @@ func Test_findDisappearedNumbers(t *testing.T) {
 	}{
 		{
 			name: "[4,3,2,7,8,2,3,1], [5,6]",
-			args: args{nums: []int{4,3,2,7,8,2,3,1}},
-			want: []int{5,6},
+			args: args{nums: []int{4, 3, 2, 7, 8, 2, 3, 1}},
+			want: []int{5, 6},
 		},
 		{
 			name: "[4,3,2,5,6,2,3,1], [7,8]",
-			args: args{nums: []int{4,3,2,5,6,2,3,1}},
-			want: []int{7,8},
+			args: args{nums: []int{4, 3, 2, 5, 6, 2, 3, 1}},
+			want: []int{7, 8},
 		},
 	}
 	for _, tt := range tests {
