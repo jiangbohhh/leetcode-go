@@ -37,6 +37,9 @@ func Test_isPalindrome(t *testing.T) {
 			if got := isPalindrome(tt.args.x); got != tt.want {
 				t.Errorf("isPalindrome() = %v, want %v", got, tt.want)
 			}
+			if got := isPalindromeNum(tt.args.x); got != tt.want {
+				t.Errorf("isPalindrome() = %v, want %v", got, tt.want)
+			}
 		})
 	}
 }
