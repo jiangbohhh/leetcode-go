@@ -8,7 +8,7 @@
 |             | 3-1  | Duplication In Array                 | Medium     |
 |             | 3-2  | Duplication In Array Not Edit        | Medium     |
 |             | 4    | Find In Partially Sorted Matrix      | Medium     |
-|             | 5    | Replace Spaces                       | Medium     |
+|      ✅       | 5    | Replace Spaces                       | Easy     |
 |             | 6    | Print List In Reversed Order         | Easy       |
 |             | 7    | Construct Binary Tree                | Medium     |
 |             | 8    | Next Node In Binary Trees            | Medium     |
@@ -70,16 +70,16 @@
 |             | 56-02 | Numbers Appearing Once              | Easy       |
 |             | 57-01 | Two Numbers With Sum                | Medium     |
 |             | 57-02 | Continuous Sequence With Sum        | Medium     |
-|             | 58-01 | Reverse Words In Sentence           | Medium     |
-|             | 58-02 | Left Rotate String                  | Medium     |
+|      ✅       | 58-01 | Reverse Words In Sentence           | Easy     |
+|      ✅       | 58-02 | Left Rotate String                  | Easy     |
 |             | 59-01 | Max In Sliding Window               | Medium     |
 |             | 59-02 | Queue With Max                      | Medium     |
 |             | 60    | Dices Probability                   | Medium     |
-|             | 61    | Continuous Cards                    | Easy       |
+|      ✅       | 61    | Continuous Cards                    | Easy       |
 |             | 62    | Last Number In Circle               | Medium     |
 |             | 63    | Maximal Profit                      | Medium     |
 |             | 64    | Accumulate                          | Medium     |
 |             | 65    | Add Two Numbers                     | Medium     |
 |             | 66    | Construct Array                     | Easy       |
-|             | 67    | String To Integer                   | Medium     |
+|       ✅      | 67    | String To Integer                   | Medium     |
 |             | 68    | Common Parent In Tree               | Medium     |
