@@ -7,10 +7,10 @@
 |             | 01.02 | Check Permutation                    | Medium     |
 |             | 01.03 | URLify                               | Medium     |
 |             | 01.04 | | Medium     |
-|             | 01.05 | | Medium     |
+|             | 01.05 | One Away                             | Medium     |
 |             | 01.06 | | Medium     |
 |             | 01.07 | | Easy       |
-|             | 01.08 | | Medium     |
+|     ✅        | 01.08 | Zero Matrix                          | Medium     |
 |             | 01.09 | | Medium     |
 |             | 02.01 | | Medium     |
 |             | 02.02 | | Medium     |
@@ -141,12 +141,18 @@
 |             | 16.01 | | Easy       |
 |             | 16.02 | | Medium     |
 |             | 16.03 | | Medium     |
-|             | 16.04 | | Medium     |
+|             | 16.04 | Tic Tac Win                           | Medium     |
 |             | 16.05 | | Medium     |
 |             | 16.06 | | Easy       |
 |             | 16.07 | | Medium     |
 |             | 16.08 | | Medium     |
 |             | 16.09 | | Medium     |
+|             | 16.10 | | Medium     |
+|             | 16.11 | Diving Board                           | Easy     |
+|             | 16.12 | | Medium     |
+|             | 16.13 | | Medium     |
+|             | 16.14 | | Medium     |
+|             | 16.15 | Master Mind                            | Easy     |
 |             | 17.01 | | Easy       |
 |             | 17.02 | | Medium     |
 |             | 17.03 | | Medium     |
