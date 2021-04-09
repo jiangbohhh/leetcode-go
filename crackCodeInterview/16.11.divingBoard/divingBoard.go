@@ -21,6 +21,25 @@ package divingBoard
 // 链接：https://leetcode-cn.com/problems/diving-board-lcci
 // 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+// divingBoard
 func divingBoard(shorter int, longer int, k int) []int {
-	return nil
+	if k <= 0 {
+		return nil
+	}
+	list := make([]int, 0)
+	// 木板长度相同
+	if shorter == longer {
+		return append(list, k*shorter)
+	}
+
+	// 木板长度为 1
+	if k == 1 {
+		return append(list, shorter, longer)
+	}
+
+	// 木板长度大于 1, i 表示 longer的数量，这样就可以不用再排序最后的数组了
+	for i := 0; i <= k; i++ {
+		list = append(list, i*longer+(k-i)*shorter)
+	}
+	return list
 }
