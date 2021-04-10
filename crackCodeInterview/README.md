@@ -148,7 +148,7 @@
 |             | 16.08 | | Medium     |
 |             | 16.09 | | Medium     |
 |             | 16.10 | | Medium     |
-|             | 16.11 | Diving Board                           | Easy     |
+|      ✅       | 16.11 | Diving Board                           | Easy     |
 |             | 16.12 | | Medium     |
 |             | 16.13 | | Medium     |
 |             | 16.14 | | Medium     |
