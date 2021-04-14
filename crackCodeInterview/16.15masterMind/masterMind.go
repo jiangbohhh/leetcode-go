@@ -23,5 +23,31 @@ package masterMind
 
 // masterMind
 func masterMind(solution string, guess string) []int {
-	return nil
+	if len(solution) != len(guess) || len(solution) != 4 || len(guess) != 4 {
+		return []int{0, 0}
+	}
+	// list1 存储猜中下标，list2存储未猜中但是使用了的元素下标
+	list1, list2 := [4]int{}, [4]int{}
+	hitCount, fakeHitCount := 0, 0
+	for i := 0; i < 4; i++ {
+		if solution[i] == guess[i] {
+			list1[i] = 1
+			list2[i] = 1
+			hitCount++
+		}
+	}
+	for i := 0; i < len(solution); i++ {
+		if list1[i] == 1 {
+			continue
+		}
+		for j := 0; j < len(guess); j++ {
+			if solution[i] == guess[j] && list2[j] == 0 {
+				list2[j] = 1
+				fakeHitCount++
+				break
+			}
+		}
+	}
+
+	return []int{hitCount, fakeHitCount}
 }

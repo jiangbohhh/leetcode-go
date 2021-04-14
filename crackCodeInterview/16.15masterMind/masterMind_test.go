@@ -47,6 +47,14 @@ func Test_masterMind(t *testing.T) {
 			},
 			want: []int{1, 1},
 		},
+		{
+			name: "BRBB,RBGY => [0,2]",
+			args: args{
+				solution: "BRBB",
+				guess:    "RBGY",
+			},
+			want: []int{0, 2},
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
