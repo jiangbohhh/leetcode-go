@@ -21,5 +21,32 @@ package spiralMatrix
 
 // spiralOrder
 func spiralOrder(matrix [][]int) []int {
-	return nil
+	n := len(matrix)
+	m := len(matrix[0])
+	result := make([]int, 0, m*n)
+	top, bottom := 0, n-1 // 高度
+	left, right := 0, m-1 // 长度
+	for left <= right && top <= bottom {
+		// 从左上到右上
+		for i := left; i <= right; i++ {
+			result = append(result, matrix[top][i])
+		}
+		// 从右上到右下
+		for j := top + 1; j <= bottom; j++ {
+			result = append(result, matrix[j][right])
+		}
+		// 从右下到左下，单数行的话， top 和 bottom相等会出现重复的值
+		for i := right - 1; i >= left && top != bottom; i-- {
+			result = append(result, matrix[bottom][i])
+		}
+		// 从左下到左上 同理 单数行，top 和 bottom 相等会出现重复值
+		for j := bottom - 1; j > top && left != right; j-- {
+			result = append(result, matrix[j][left])
+		}
+		left++
+		right--
+		top++
+		bottom--
+	}
+	return result
 }
