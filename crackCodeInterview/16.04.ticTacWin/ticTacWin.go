@@ -35,5 +35,89 @@ package ticTacWin
 
 // tictactoe
 func tictactoe(board []string) string {
-	return ""
+	n := len(board)
+	list := make([][]byte, n)
+	for idx, str := range board {
+		list[idx] = make([]byte, 0, n)
+		for i := 0; i < len(str); i++ {
+			list[idx] = append(list[idx], str[i])
+		}
+	}
+	isWon := false
+	// 行上判断是否相等
+	for i := 0; i < n; i++ {
+		if list[i][0] == ' ' {
+			continue
+		}
+		isWon = true
+		for j := 0; j < n; j++ {
+			if list[i][j] != list[i][0] {
+				isWon = false
+				break
+			}
+		}
+		if isWon {
+			return string(list[i][0])
+		}
+	}
+
+	// 列上判断是否相等
+	for i := 0; i < n; i++ {
+		if list[0][i] == ' ' {
+			continue
+		}
+		isWon = true
+		for j := 0; j < n; j++ {
+			if list[j][i] != list[0][i] {
+				isWon = false
+				break
+			}
+		}
+		if isWon {
+			return string(list[0][i])
+		}
+	}
+
+	// 对角判断是否相等(左上到右下）
+	if list[0][0] != ' ' {
+		i, j := 1, 1
+		isWon = true
+		for i < n && j < n {
+			if list[i][j] != list[0][0] {
+				isWon = false
+				break
+			}
+			i++
+			j++
+		}
+		if isWon {
+			return string(list[0][0])
+		}
+	}
+
+	// 对角线(左下到右上)
+	if list[n-1][0] != ' ' {
+		i, j := n-2, 1
+		isWon = true
+		for i >= 0 && j < n {
+			if list[i][j] != list[n-1][0] {
+				isWon = false
+				break
+			}
+			i--
+			j++
+		}
+		if isWon {
+			return string(list[n-1][0])
+		}
+	}
+	// 如果没人赢，有空则代表Pending
+	for i := 0; i < n; i++ {
+		for j := 0; j < n; j++ {
+			if list[i][j] == ' ' {
+				return "Pending"
+			}
+		}
+	}
+	return "Draw"
 }
