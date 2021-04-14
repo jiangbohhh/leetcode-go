@@ -46,3 +46,35 @@ func rotate(matrix [][]int) {
 		}
 	}
 }
+
+// (0,0) -> (0, n-1)
+//     |       |
+// (n-1, 0)  (n-1, n-1)
+// 交替替换外圈的值
+
+// rotate2
+func rotate2(matrix [][]int) {
+	// 原地交换做法解决
+	n := len(matrix)
+	i1, j1 := 0, 0
+	for n > 1 {
+		i2, j2 := i1, j1+n-1
+		i3, j3 := i1+n-1, j1+n-1
+		i4, j4 := i1+n-1, j1
+		for move := 0; move <= n-2; move++ {
+			// 从左到右 所以 j1+即可
+			jj1 := j1 + move
+			// 从上到下 i2+即可
+			ii2 := i2 + move
+			// 从右到左 j3-即可
+			jj3 := j3 - move
+			// 从下到上 i4—即可
+			ii4 := i4 - move
+			matrix[i1][jj1], matrix[ii2][j2], matrix[i3][jj3], matrix[ii4][j4] =
+				matrix[ii4][j4], matrix[i1][jj1], matrix[ii2][j2], matrix[i3][jj3]
+		}
+		i1++
+		j1++
+		n -= 2
+	}
+}
