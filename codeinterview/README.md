@@ -29,7 +29,7 @@
 |             | 22    | Kth Node From End                   | Medium     |
 |             | 23    | Entry Node In List Loop             | Medium     |
 |             | 24    | Reverse List                        | Medium     |
-|             | 25    | Merge Sorted Lists                  | Medium     |
+|       ✅      | 25    | Merge Sorted Lists                  | Medium     |
 |             | 26    | Substructure In Tree                | Easy       |
 |             | 27    | Mirror Of Binary Tree               | Medium     |
 |             | 28    | Symmetrical Binary Tree             | Medium     |
