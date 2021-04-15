@@ -26,7 +26,7 @@
 |             | 19    | Regular Expression Matching         | Medium     |
 |             | 20    | NumericStrings                      | Medium     |
 |             | 21    | Reorder Array                       | Easy       |
-|             | 22    | Kth Node From End                   | Medium     |
+|       ✅      | 22    | Kth Node From End                   | Medium     |
 |             | 23    | Entry Node In List Loop             | Medium     |
 |             | 24    | Reverse List                        | Medium     |
 |       ✅      | 25    | Merge Sorted Lists                  | Medium     |
