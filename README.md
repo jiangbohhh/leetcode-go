@@ -15,6 +15,7 @@
 |          | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy       |                |                 |
 |          | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy       |                |                 |
 |          | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy       |                |                 |
+|          | 0206 | [Reverse Linked List ](https://leetcode-cn.com/problems/reverse-linked-list) | Easy       | O(n)           | O(1)            |
 |          | 0240 | [Count Primes](https://leetcode.com/problems/count-primes)   | Medium     |                |                 |
 |          | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | Medium     |                |                 |
 |          | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | Easy       |                |                 |
