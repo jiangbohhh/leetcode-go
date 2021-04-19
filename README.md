@@ -7,6 +7,7 @@
 |          | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium     | O(n)           | O(n)            |
 |          | 0009 | [Palindrome  Number](https://leetcode.com/problems/palindrome-number) | Easy       | O(logn)        | O(1)            |
 |          | 0015 | [3Sum](https://leetcode.com/problems/3sum)                   | Medium     |                |                 |
+|          | 0025 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)                   | Hard     |                |                 |
 |          | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy       |                |                 |
 |          | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image)   | Medium     |                |                 |
 |          | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium     |                |                 |
