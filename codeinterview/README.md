@@ -13,13 +13,13 @@
 |             | 7    | [Construct Binary Tree](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof) | Medium     |
 |             | 8    | Next Node In Binary Trees            |      |
 |      ✅       | 9    | [Queue With Two Stacks](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | Easy  |
-|             | 10   | [Fibonacci](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof) | Easy  |
-| | 10-II | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof) | Easy |
+|      ✅       | 10   | [Fibonacci](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof) | Easy  |
+|      ✅       | 10-II | [Frog Jumping](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof) | Easy |
 |             | 11   | [Min Number In Rotated Array](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof) | Easy       |
 |             | 12    | [String Path In Matrix](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof) | Medium |
 |             | 13    | [Robot Move](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof) | Medium     |
 |             | 14    | [Cutting Rope](https://leetcode-cn.com/problems/jian-sheng-zi-lcof) | Medium     |
-| | 14-II | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof) | Medium |
+|             | 14-II | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof) | Medium |
 |             | 15    | [Number Of 1 In Binary](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof) | Easy |
 |             | 16    | [Power](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof) | Medium |
 |             | 17    | [Print 1 To Max Of N Digits](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof) | Easy  |
