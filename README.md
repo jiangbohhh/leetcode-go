@@ -17,6 +17,7 @@
 |          | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy       |                |                 |
 |          | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy       |                |                 |
 |          | 0206 | [Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list) | Easy       | O(n)           | O(1)            |
+|          | 0225 | [Implement Stack Use Queue](https://leetcode.com/problems/implement-stack-using-queues) | Easy       | O(n)           | O(n)            |
 |          | 0240 | [Count Primes](https://leetcode.com/problems/count-primes)   | Medium     |                |                 |
 |          | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | Medium     |                |                 |
 |          | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | Medium     | O(n)           | O(1)            |
