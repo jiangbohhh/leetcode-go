@@ -9,6 +9,7 @@
 |          | 0015 | [3Sum](https://leetcode.com/problems/3sum)                   | Medium     |                |                 |
 |          | 0025 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)                   | Hard     |                |                 |
 |          | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy       |                |                 |
+|          | 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy       |   O(n)             |         O(n)        |
 |          | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image)   | Medium     |                |                 |
 |          | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium     |                |                 |
 |          | 0055 | [Jump Game](https://leetcode.com/problems/jump-game)         | Medium     |                |                 |
