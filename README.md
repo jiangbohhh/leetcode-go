@@ -17,6 +17,7 @@
 |          | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy       |                |                 |
 |          | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy       |                |                 |
 |          | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy       |                |                 |
+|          | 0155 | [Min Stack](https://leetcode-cn.com/problems/min-stack) | Easy       |                |                 |
 |          | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy       |                |                 |
 |          | 0206 | [Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list) | Easy       | O(n)           | O(1)            |
 |          | 0225 | [Implement Stack Use Queue](https://leetcode.com/problems/implement-stack-using-queues) | Easy       | O(n)           | O(n)            |
