@@ -11,8 +11,8 @@ func mergeSort(m []int) {
 	merge(m, mid)
 }
 
-func merge(nums []int, mid int){
-	i,j := 0, mid
+func merge(nums []int, mid int) {
+	i, j := 0, mid
 	tmp := make([]int, 0, len(nums))
 	for i < mid && j < len(nums) {
 		if i < mid && nums[i] < nums[mid] {
