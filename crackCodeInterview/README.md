@@ -90,7 +90,7 @@
 |             | 09.06 | Sales Rank                           |        |        |        |
 |             | 09.07 | Personal Financial Manager           |      |      |      |
 |             | 09.08 | Pastebin                             |      |      |      |
-|             | 10.01 | [Sorted Merge](https://leetcode-cn.com/problems/sorted-merge-lcci) | Easy       |        |        |
+|      ✅       | 10.01 | [Sorted Merge](https://leetcode-cn.com/problems/sorted-merge-lcci) | Easy       |        |        |
 |             | 10.02 | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams-lcci) | Medium     |      |      |
 |             | 10.03 | [Search in Rotated Array](https://leetcode-cn.com/problems/search-rotate-array-lcci) | Medium     |      |      |
 |             | 10.04 | Sorted Search, No Size               |      |      |      |
