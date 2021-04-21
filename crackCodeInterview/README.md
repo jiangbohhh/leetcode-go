@@ -20,7 +20,7 @@
 |             | 02.06 | [Palindrome](https://leetcode-cn.com/problems/palindrome-linked-list-lcci) | Easy  |      |      |
 |             | 02.07 | [Intersection](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci) | Easy  |      |      |
 |             | 02.08 | [Loop Detection](https://leetcode-cn.com/problems/linked-list-cycle-lcci) | Medium  |        |        |
-|             | 03.01 | [Three in One](https://leetcode-cn.com/problems/three-in-one-lcci) | Easy  |      |      |
+|      ✅       | 03.01 | [Three in One](https://leetcode-cn.com/problems/three-in-one-lcci) | Easy  |      |      |
 |             | 03.02 | [Stack Min](https://leetcode-cn.com/problems/min-stack-lcci) | Easy  |      |      |
 |             | 03.03 | [Stack of Plates](https://leetcode-cn.com/problems/stack-of-plates-lcci) | Medium     |      |      |
 |             | 03.04 | [Queue via Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci) | Easy  |      |      |
