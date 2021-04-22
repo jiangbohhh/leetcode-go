@@ -30,7 +30,7 @@
 |             | 21    | [Reorder Array](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof) | Easy    |
 |       ✅      | 22    | [Kth Node From End](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | Easy  |
 |             | 23    | Entry Node In List Loop             |      |
-|             | 24    | [Reverse List](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof) | Easy  |
+|       ✅      | 24    | [Reverse List](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof) | Easy  |
 |       ✅      | 25    | [Merge Sorted Lists](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof) | Easy |
 |             | 26    | [Substructure In Tree](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof) | Medium |
 |             | 27    | [Mirror Of Binary Tree](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof) | Easy  |
