@@ -8,6 +8,7 @@
 |          | 0009 | [Palindrome  Number](https://leetcode.com/problems/palindrome-number) | Easy       | O(logn)        | O(1)            |
 |          | 0015 | [3Sum](https://leetcode.com/problems/3sum)                   | Medium     |                |                 |
 |          | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                   | Easy     |                |                 |
+|          | 0021 | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists)                   | Easy     |      O(n)          |        O(1)         |
 |          | 0025 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)                   | Hard     |                |                 |
 |          | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy       |                |                 |
 |          | 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy       |   O(n)             |         O(n)        |
