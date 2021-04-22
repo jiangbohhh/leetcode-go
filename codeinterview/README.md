@@ -21,7 +21,7 @@
 |             | 14    | [Cutting Rope](https://leetcode-cn.com/problems/jian-sheng-zi-lcof) | Medium     |
 |             | 14-II | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof) | Medium |
 |             | 15    | [Number Of 1 In Binary](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof) | Easy |
-|             | 16    | [Power](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof) | Medium |
+|      ✅       | 16    | [Power](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof) | Medium |
 |             | 17    | [Print 1 To Max Of N Digits](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof) | Easy  |
 |             | 18-01 | [Delete Node In List](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof) | Easy  |
 |             | 18-02 | Delete Duplicated Node              |      |
