@@ -9,7 +9,7 @@
 |             | 3-2  | Duplication In Array Not Edit        |      |
 |             | 4    | [Find In Partially Sorted Matrix](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof) | Medium |
 |      ✅       | 5    | [Replace Spaces](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof) | Easy     |
-|             | 6    | [Print List In Reversed Order](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | Easy       |
+|      ✅       | 6    | [Print List In Reversed Order](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | Easy       |
 |             | 7    | [Construct Binary Tree](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof) | Medium     |
 |             | 8    | Next Node In Binary Trees            |      |
 |      ✅       | 9    | [Queue With Two Stacks](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | Easy  |
