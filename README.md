@@ -8,7 +8,7 @@
 |          | 0009 | [Palindrome  Number](https://leetcode.com/problems/palindrome-number) | Easy       | O(logn)        | O(1)            |
 |          | 0015 | [3Sum](https://leetcode.com/problems/3sum)                   | Medium     |                |                 |
 |          | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                   | Easy     |                |                 |
-|          | 0021 | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists)                   | Easy     |      O(n)          |        O(1)         |
+|          | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                   | Easy     |      O(n)          |        O(1)         |
 |          | 0025 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)                   | Hard     |                |                 |
 |          | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy       |                |                 |
 |          | 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy       |   O(n)             |         O(n)        |
@@ -16,14 +16,15 @@
 |          | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium     |                |                 |
 |          | 0055 | [Jump Game](https://leetcode.com/problems/jump-game)         | Medium     |                |                 |
 |          | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy       |                |                 |
-|          | 0091 | [Decode Ways](https://leetcode-cn.com/problems/decode-ways) | Medium       |                |                 |
+|          | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways) | Medium       |                |                 |
 |          | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy       |                |                 |
 |          | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy       |                |                 |
-|          | 0155 | [Min Stack](https://leetcode-cn.com/problems/min-stack) | Easy       |                |                 |
+|          | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | Easy       |                |                 |
 |          | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy       |                |                 |
 |          | 0206 | [Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list) | Easy       | O(n)           | O(1)            |
 |          | 0225 | [Implement Stack Use Queue](https://leetcode.com/problems/implement-stack-using-queues) | Easy       | O(n)           | O(n)            |
 |          | 0240 | [Count Primes](https://leetcode.com/problems/count-primes)   | Medium     |                |                 |
+|          | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram)   | Easy     |      O(n)          |      O(n)           |
 |          | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | Medium     |                |                 |
 |          | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | Medium     | O(n)           | O(1)            |
 |          | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | Easy       |                |                 |
