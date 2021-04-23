@@ -24,7 +24,7 @@
 |             | 03.02 | [Stack Min](https://leetcode-cn.com/problems/min-stack-lcci) | Easy  |      |      |
 |             | 03.03 | [Stack of Plates](https://leetcode-cn.com/problems/stack-of-plates-lcci) | Medium     |      |      |
 |             | 03.04 | [Queue via Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci) | Easy  |      |      |
-|             | 03.05 | [Sort Stack](https://leetcode-cn.com/problems/sort-of-stacks-lcci) | Mediun |        |        |
+|      ✅       | 03.05 | [Sort Stack](https://leetcode-cn.com/problems/sort-of-stacks-lcci) | Mediun |        |        |
 |             | 03.06 | [Animal Shelter](https://leetcode-cn.com/problems/animal-shelter-lcci) | Easy  |      |      |
 |             | 04.01 | [Route Between Nodes](https://leetcode-cn.com/problems/route-between-nodes-lcci) | Medium |        |        |
 |             | 04.02 | [Minimal Tree](https://leetcode-cn.com/problems/minimum-height-tree-lcci) | Easy |      |      |
