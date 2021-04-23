@@ -72,7 +72,7 @@
 |             | 08.02 | [Robot in a Grid](https://leetcode-cn.com/problems/robot-in-a-grid-lcci) | Medium |        |        |
 |             | 08.03 | [Magic Index](https://leetcode-cn.com/problems/magic-index-lcci) | Easy  |      |      |
 |             | 08.04 | [Power Set](https://leetcode-cn.com/problems/power-set-lcci) | Medium     |      |      |
-|             | 08.05 | [Recursive Multiply](https://leetcode-cn.com/problems/recursive-mulitply-lcci) | Medium     |      |      |
+|      ✅       | 08.05 | [Recursive Multiply](https://leetcode-cn.com/problems/recursive-mulitply-lcci) | Medium     |      |      |
 |             | 08.06 | [Towers of Hanoi](https://leetcode-cn.com/problems/hanota-lcci) | Easy  |      |      |
 |             | 08.07 | [Permutations without Dups](https://leetcode-cn.com/problems/permutation-i-lcci) | Medium     |      |      |
 |             | 08.08 | [Permutations with Duplicates](https://leetcode-cn.com/problems/permutation-ii-lcci) | Medium     |      |      |

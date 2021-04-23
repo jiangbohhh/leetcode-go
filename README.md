@@ -33,4 +33,5 @@
 |          | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | Easy       |                |                 |
 |          | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | Easy       |                |                 |
 |          | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address) | Easy       |                |                 |
+|          | 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Easy       |         O(n)       |       O(1)          |
 
