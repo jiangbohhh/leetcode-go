@@ -68,7 +68,7 @@
 |             | 07.10 | Minesweeper                          |      |      |      |
 |             | 07.11 | File System                          |      |      |      |
 |             | 07.12 | Hash Table                           |      |      |      |
-|             | 08.01 | [Triple Step](https://leetcode-cn.com/problems/three-steps-problem-lcci) | Easy       |        |        |
+|      ✅       | 08.01 | [Triple Step](https://leetcode-cn.com/problems/three-steps-problem-lcci) | Easy       |        |        |
 |             | 08.02 | [Robot in a Grid](https://leetcode-cn.com/problems/robot-in-a-grid-lcci) | Medium |        |        |
 |             | 08.03 | [Magic Index](https://leetcode-cn.com/problems/magic-index-lcci) | Easy  |      |      |
 |             | 08.04 | [Power Set](https://leetcode-cn.com/problems/power-set-lcci) | Medium     |      |      |
