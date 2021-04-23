@@ -165,7 +165,7 @@
 |             | 16.23 | Rand7 from Rand5                     |    |    |    |
 |             | 16.24 | [Pairs with Sum](https://leetcode-cn.com/problems/pairs-with-sum-lcci) | Medium |    |    |
 |             | 16.25 | [LRU Cache](https://leetcode-cn.com/problems/lru-cache-lcci) | Medium |    |    |
-|             | 16.26 | [Calculator](https://leetcode-cn.com/problems/calculator-lcci) | Medium |    |    |
+|      ✅       | 16.26 | [Calculator](https://leetcode-cn.com/problems/calculator-lcci) | Medium |    |    |
 |             | 17.01 | [Add Without Plus](https://leetcode-cn.com/problems/add-without-plus-lcci) | Easy    |        |        |
 |             | 17.02 | Shuffle                              |        |        |        |
 |             | 17.03 | Random Set                           |        |        |        |
