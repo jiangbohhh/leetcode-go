@@ -27,7 +27,7 @@
 |             | 18-02 | Delete Duplicated Node              |      |
 |             | 19    | [Regular Expression Matching](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof) | Hard  |
 |             | 20    | [NumericStrings](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof) | Medium     |
-|             | 21    | [Reorder Array](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof) | Easy    |
+|       ✅      | 21    | [Reorder Array](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof) | Easy    |
 |       ✅      | 22    | [Kth Node From End](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | Easy  |
 |             | 23    | Entry Node In List Loop             |      |
 |       ✅      | 24    | [Reverse List](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof) | Easy  |
