@@ -31,6 +31,7 @@
 |          | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | Easy       |                |                 |
 |          | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | Easy       |                |                 |
 |          | 0589 | [N-ary Tree Preorder Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | Easy       |                |                 |
+|          | 0590 | [N-ary Tree Postorder Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal) | Easy       |                |                 |
 |          | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | Medium       |                |                 |
 |          | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | Easy       |                |                 |
 |          | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | Easy       |                |                 |
