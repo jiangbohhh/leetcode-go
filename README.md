@@ -19,6 +19,7 @@
 |          | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways) | Medium       |                |                 |
 |          | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy       |                |                 |
 |          | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy       |                |                 |
+|          | 0144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) | Medium       |                |                 |
 |          | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | Easy       |                |                 |
 |          | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy       |                |                 |
 |          | 0206 | [Reverse Linked List ](https://leetcode.com/problems/reverse-linked-list) | Easy       | O(n)           | O(1)            |
