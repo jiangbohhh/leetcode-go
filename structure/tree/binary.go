@@ -6,3 +6,9 @@ type TreeNode struct {
 	Left  *TreeNode
 	Right *TreeNode
 }
+
+// N-ary Tree
+type NNode struct {
+	Val      int
+	Children []*NNode
+}
