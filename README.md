@@ -15,6 +15,7 @@
 |          | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image)   | Medium     |                |                 |
 |          | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium     |                |                 |
 |          | 0055 | [Jump Game](https://leetcode.com/problems/jump-game)         | Medium     |                |                 |
+|          | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals)         | Medium     |                |                 |
 |          | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy       |                |                 |
 |          | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways) | Medium       |                |                 |
 |          | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy       |                |                 |
