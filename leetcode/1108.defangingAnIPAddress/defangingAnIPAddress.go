@@ -33,3 +33,19 @@ func defangIPAddr(address string) string {
 	}
 	return addr
 }
+
+func defangIPAddr1(address string) string {
+	list := make([]string, 0)
+	for _, val := range address {
+		if val != '.' {
+			list = append(list, string(val))
+		} else {
+			list = append(list, "[.]")
+		}
+	}
+	return strings.Join(list, "")
+}
+
+func defangIPAddr2(address string) string {
+	return strings.Replace(address, ".", "[.]", -1)
+}
