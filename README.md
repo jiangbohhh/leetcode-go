@@ -5,6 +5,7 @@
 | -------- | ---- | ------------------------------------------------------------ | ---------- | -------------- | --------------- |
 |          | 0001 | [Two Sum](https://leetcode.com/problems/two-sum)             | Easy       | O(n)           | O(n)            |
 |          | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium     | O(n)           | O(n)            |
+|          | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters) | Medium     | O(n)           | O(n)            |
 |          | 0009 | [Palindrome  Number](https://leetcode.com/problems/palindrome-number) | Easy       | O(logn)        | O(1)            |
 |          | 0015 | [3Sum](https://leetcode.com/problems/3sum)                   | Medium     |                |                 |
 |          | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                   | Easy     |                |                 |
