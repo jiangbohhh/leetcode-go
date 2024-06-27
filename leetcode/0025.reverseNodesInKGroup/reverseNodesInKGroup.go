@@ -83,3 +83,45 @@ func reverse(head, tail *ListNode) (newHead *ListNode, newTail *ListNode) {
 	}
 	return tail, head
 }
+
+func reverseKGroup1(head *ListNode, k int) *ListNode {
+	dummyHead := new(ListNode)
+	tail := dummyHead
+	p := head
+	for p != nil {
+		count := 0
+		q := p
+		for q != nil {
+			count++
+			if count == k {
+				break
+			}
+			q = q.Next
+		}
+		if q == nil {
+			tail.Next = p
+			return dummyHead.Next
+		} else {
+			tmp := q.Next
+			newHead, newTail := reverse1(p, q)
+			tail.Next = newHead
+			tail = newTail
+			p = tmp
+		}
+	}
+	return dummyHead.Next
+}
+
+func reverse1(head, tail *ListNode) (newHead, newTail *ListNode) {
+	newTail = head
+	p := head
+	for p != tail {
+		tmp := p.Next
+		p.Next = newHead
+		newHead = p
+		p = tmp
+	}
+	tail.Next = newHead
+	newHead = tail
+	return
+}
