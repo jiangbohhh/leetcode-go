@@ -85,3 +85,48 @@ func max(a, b int) int {
 	}
 	return b
 }
+
+// longestPalindrome2 使用动态规划方式
+func longestPalindrome2(s string) string {
+	n := len(s)
+	if len(s) < 2 {
+		return s
+	}
+
+	dp := make([][]bool, n)
+	for i := range dp {
+		dp[i] = make([]bool, n)
+	}
+
+	start, maxLen := 0, 1
+
+	// 所有长度为1的字串都是回文串
+	for i := 0; i < n; i++ {
+		dp[i][i] = true
+	}
+
+	// 检查长度为2的回文串
+	for i := 0; i < n-1; i++ {
+		if s[i] == s[i+1] {
+			dp[i][i+1] = true
+			start = i
+			maxLen = 2
+		}
+	}
+
+	// 检查长度大于3的子串
+	for length := 3; length <= n; length++ {
+		for i := 0; i < n-length+1; i++ {
+			j := i + length - 1
+			if s[i] == s[j] && dp[i+1][j-1] {
+				dp[i][j] = true
+				if length > maxLen {
+					start = i
+					maxLen = length
+				}
+			}
+		}
+	}
+
+	return s[start : start+maxLen]
+}
