@@ -52,3 +52,36 @@ func longestPalindrome(s string) string {
 	}
 	return long
 }
+
+// longestPalindrome1 使用中心拓展法，以每个字符为中心(奇数长度回文)或每两个相邻字符为中心(偶数长度回文),向两边扩展。
+func longestPalindrome1(s string) string {
+	if len(s) < 2 {
+		return s
+	}
+	start, maxLen := 0, 1
+	for i := 0; i < len(s); i++ {
+		len1 := expendAroundCenter(s, i, i)
+		len2 := expendAroundCenter(s, i, i+1)
+		length := max(len1, len2)
+		if length > maxLen {
+			start = i - (length-1)/2
+			maxLen = length
+		}
+	}
+	return s[start : start+maxLen]
+}
+
+func expendAroundCenter(s string, left, right int) int {
+	for left >= 0 && right < len(s) && s[left] == s[right] {
+		left--
+		right++
+	}
+	return right - left - 1
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
