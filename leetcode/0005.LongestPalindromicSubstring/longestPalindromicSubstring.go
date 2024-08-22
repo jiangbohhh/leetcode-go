@@ -52,3 +52,81 @@ func longestPalindrome(s string) string {
 	}
 	return long
 }
+
+// longestPalindrome1 使用中心拓展法，以每个字符为中心(奇数长度回文)或每两个相邻字符为中心(偶数长度回文),向两边扩展。
+func longestPalindrome1(s string) string {
+	if len(s) < 2 {
+		return s
+	}
+	start, maxLen := 0, 1
+	for i := 0; i < len(s); i++ {
+		len1 := expendAroundCenter(s, i, i)
+		len2 := expendAroundCenter(s, i, i+1)
+		length := max(len1, len2)
+		if length > maxLen {
+			start = i - (length-1)/2
+			maxLen = length
+		}
+	}
+	return s[start : start+maxLen]
+}
+
+func expendAroundCenter(s string, left, right int) int {
+	for left >= 0 && right < len(s) && s[left] == s[right] {
+		left--
+		right++
+	}
+	return right - left - 1
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+// longestPalindrome2 使用动态规划方式
+func longestPalindrome2(s string) string {
+	n := len(s)
+	if len(s) < 2 {
+		return s
+	}
+
+	dp := make([][]bool, n)
+	for i := range dp {
+		dp[i] = make([]bool, n)
+	}
+
+	start, maxLen := 0, 1
+
+	// 所有长度为1的字串都是回文串
+	for i := 0; i < n; i++ {
+		dp[i][i] = true
+	}
+
+	// 检查长度为2的回文串
+	for i := 0; i < n-1; i++ {
+		if s[i] == s[i+1] {
+			dp[i][i+1] = true
+			start = i
+			maxLen = 2
+		}
+	}
+
+	// 检查长度大于3的子串
+	for length := 3; length <= n; length++ {
+		for i := 0; i < n-length+1; i++ {
+			j := i + length - 1
+			if s[i] == s[j] && dp[i+1][j-1] {
+				dp[i][j] = true
+				if length > maxLen {
+					start = i
+					maxLen = length
+				}
+			}
+		}
+	}
+
+	return s[start : start+maxLen]
+}
